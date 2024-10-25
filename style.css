@@ -1,0 +1,142 @@
+body {
+  background-image: linear-gradient(to right, rgba(250, 248, 248, 0.948), rgba(255, 0, 0, 0.8));
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  margin-top: 5%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid red;
+  border-radius: 50%; 
+}
+
+h1.name {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #d9534f; 
+  margin-bottom: 10px;
+}
+h2.name {
+  color: #cc0d79; 
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #5bc0de; 
+  margin-bottom: 10px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex: 1;
+  min-width: 280px; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+a {
+  color: #d9534f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+ 
+}
+.remove{
+  list-style-type: none;
+}
+
+.software-testing, .technical-skills {
+  flex: 1; /* Each column takes up equal space */
+  margin: 10px; /* Spacing between columns */
+  min-width: 280px; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tech-skills-container {
+  display: flex;
+  justify-content: space-between; /* Space between the two columns of technical skills */
+ 
+}
+.box{
+  list-style-type: none; 
+  border: 1px solid #ccc;
+   border-radius: 5%;
+   background-color:
+  #fff;padding: 10px;
+}
+
+.tech-skills-container ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  flex: 1; /* Each ul takes up equal space */
+  margin: 0 10px; /* Margin between two columns */
+  min-width: 200px; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  
+}
+
+h2.name {
+  color: #cc0d79; 
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+      width: 100px;
+      height: 100px;
+  }
+
+  h1.name {
+      font-size: 2em;
+  }
+
+  .project-container {
+      flex-direction: column;
+  }
+}
+
